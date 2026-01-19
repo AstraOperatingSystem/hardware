@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [],
@@ -117,7 +117,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.5,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -611,7 +611,7 @@
   },
   "sheets": [
     [
-      "a743d9ca-4482-48f4-bb57-c11bb2b2c7ae",
+      "2c0b7f62-c984-4395-ba2f-356f19f7f2d0",
       "Root"
     ]
   ],
