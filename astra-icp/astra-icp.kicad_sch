@@ -8084,7 +8084,7 @@
 				)
 			)
 		)
-		(property "Value" "15"
+		(property "Value" "60.4"
 			(at 39.37 160.782 90)
 			(effects
 				(font
@@ -10286,7 +10286,7 @@
 				)
 			)
 		)
-		(property "Value" "145"
+		(property "Value" "130"
 			(at 39.37 171.45 90)
 			(effects
 				(font
@@ -10491,7 +10491,7 @@
 				)
 			)
 		)
-		(property "Value" "15"
+		(property "Value" "60.4"
 			(at 39.37 135.382 90)
 			(effects
 				(font
@@ -11735,7 +11735,7 @@
 				)
 			)
 		)
-		(property "Value" "15"
+		(property "Value" "60.4"
 			(at 39.37 148.082 90)
 			(effects
 				(font
@@ -13565,7 +13565,7 @@
 				)
 			)
 		)
-		(property "Value" "60.4"
+		(property "Value" "45"
 			(at 39.37 182.88 90)
 			(effects
 				(font
