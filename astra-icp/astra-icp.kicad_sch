@@ -6877,7 +6877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 121.92 50.8 90)
 			(effects
 				(font
@@ -7579,7 +7579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 45.72 50.8 90)
 			(effects
 				(font
@@ -7732,7 +7732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 83.82 50.8 90)
 			(effects
 				(font
@@ -8333,7 +8333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 58.42 63.5 90)
 			(effects
 				(font
@@ -8418,7 +8418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 71.12 38.1 90)
 			(effects
 				(font
@@ -8638,7 +8638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 71.12 50.8 90)
 			(effects
 				(font
@@ -9011,7 +9011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 134.62 38.1 90)
 			(effects
 				(font
@@ -9096,7 +9096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 109.22 41.91 90)
 			(effects
 				(font
@@ -9248,7 +9248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 121.92 63.5 90)
 			(effects
 				(font
@@ -9936,7 +9936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 134.62 50.8 90)
 			(effects
 				(font
@@ -10634,7 +10634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 45.72 63.5 90)
 			(effects
 				(font
@@ -10719,7 +10719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 134.62 63.5 90)
 			(effects
 				(font
@@ -11078,7 +11078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 71.12 63.5 90)
 			(effects
 				(font
@@ -11943,7 +11943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 83.82 38.1 90)
 			(effects
 				(font
@@ -12096,7 +12096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 96.52 38.1 90)
 			(effects
 				(font
@@ -12181,7 +12181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 83.82 63.5 90)
 			(effects
 				(font
@@ -13045,7 +13045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 45.72 38.1 90)
 			(effects
 				(font
@@ -13082,6 +13082,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 45.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "BAV16WS-7-F "
 			(at 45.72 38.1 0)
 			(effects
 				(font
@@ -13267,7 +13276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 121.92 38.1 90)
 			(effects
 				(font
@@ -13419,7 +13428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 58.42 38.1 90)
 			(effects
 				(font
@@ -13565,7 +13574,7 @@
 				)
 			)
 		)
-		(property "Value" "45"
+		(property "Value" "47"
 			(at 39.37 182.88 90)
 			(effects
 				(font
@@ -13640,7 +13649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 58.42 50.8 90)
 			(effects
 				(font
