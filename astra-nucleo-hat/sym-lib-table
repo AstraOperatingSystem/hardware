@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "nucleo_hat_footprint")(type "KiCad")(uri "${KIPRJMOD}/nucleo_hat_footprint.kicad_sym")(options "")(descr ""))
+)
