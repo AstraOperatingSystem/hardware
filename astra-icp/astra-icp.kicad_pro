@@ -237,7 +237,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -655,16 +655,16 @@
       {
         "filename": "astra-icp.kicad_sch",
         "name": "astra-icp",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "2c0b7f62-c984-4395-ba2f-356f19f7f2d0"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J3",
     "variants": []
   },
   "sheets": [
     [
       "2c0b7f62-c984-4395-ba2f-356f19f7f2d0",
-      "Root"
+      "astra-icp"
     ]
   ],
   "text_variables": {},
