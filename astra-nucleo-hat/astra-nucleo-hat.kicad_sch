@@ -4067,34 +4067,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SL_Pin_Headers:PINHD_1x9_Male"
+		(symbol "PCM_SL_Connectors:JST_09"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
+				(at 0 16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "JST_09"
+				(at 0 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_EH_B9B-EH-A_1x09_P2.50mm_Vertical"
 				(at 0 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PINHD_1x9_Male"
-				(at 0 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
-				(at -1.27 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4105,7 +4105,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 16.51 0)
+				(at 0 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4115,7 +4115,7 @@
 					)
 				)
 			)
-			(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -9"
+			(property "Description" "JST Connector  9 pins"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4126,7 +4126,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Pin Header"
+			(property "ki_keywords" "JST"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4137,7 +4137,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "PinHeader_1x09_P2.54mm*"
+			(property "ki_fp_filters" "Connector_JST:JST_EH_S9B-EH_1x09_P2.50mm_Horizontal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4148,7 +4148,7 @@
 					)
 				)
 			)
-			(symbol "PINHD_1x9_Male_0_1"
+			(symbol "JST_09_0_1"
 				(rectangle
 					(start -1.27 11.43)
 					(end 1.27 -11.43)
@@ -4162,10 +4162,132 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 10.16) (xy 0 10.16)
+						(xy -1.27 -10.668) (xy -1.27 -11.43) (xy 1.27 -11.43) (xy 1.27 -10.668) (xy 1.016 -10.668) (xy 1.016 -11.176)
+						(xy -1.016 -11.176) (xy -1.016 -10.668) (xy -1.27 -10.668)
 					)
 					(stroke
-						(width 0.3)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 10.16)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 7.62)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -7.62)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -10.16)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.016 10.668)
+					(end 1.27 -10.668)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.016 -3.048)
+					(end 1.27 -3.048)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -4174,210 +4296,19 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 10.16) (xy 0 10.16)
+						(xy 1.27 10.668) (xy 1.27 11.43) (xy -1.27 11.43) (xy -1.27 10.668) (xy -1.016 10.668) (xy -1.016 11.176)
+						(xy 1.016 11.176) (xy 1.016 10.668) (xy 1.27 10.668)
 					)
 					(stroke
-						(width 0.5)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 7.62) (xy 0 7.62)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 7.62) (xy 0 7.62)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -7.62) (xy 0 -7.62)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -7.62) (xy 0 -7.62)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -10.16) (xy 0 -10.16)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -10.16) (xy 0 -10.16)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type outline)
 					)
 				)
 			)
-			(symbol "PINHD_1x9_Male_1_1"
+			(symbol "JST_09_1_1"
 				(pin passive line
 					(at -3.81 10.16 0)
 					(length 2.54)
@@ -12718,109 +12649,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x9_Male")
-		(at 205.74 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09601615-0c4c-4b07-bcfa-43f1fd61118f")
-		(property "Reference" "J9"
-			(at 208.28 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED1_CONN"
-			(at 208.28 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
-			(at 204.47 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -9"
-			(at 205.74 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "ec53560b-ff7b-4093-bfb7-a131ff25aa25")
-		)
-		(pin "4"
-			(uuid "8ef8623a-776f-4379-82b8-9da832c9a53c")
-		)
-		(pin "2"
-			(uuid "bc614573-a1c5-45a1-8b37-6ec7e4af376f")
-		)
-		(pin "7"
-			(uuid "a8ab3a7e-3f6c-4802-b74c-67fac3cf58d1")
-		)
-		(pin "9"
-			(uuid "e05e2ae1-1198-4505-872d-79a07c2adf08")
-		)
-		(pin "1"
-			(uuid "4437c890-339c-4650-98d5-b8c45b6e7f75")
-		)
-		(pin "8"
-			(uuid "575de805-46fd-400f-8cb0-8ddcc4c49a06")
-		)
-		(pin "3"
-			(uuid "dd4ddb21-ce81-4152-b9da-381243344e80")
-		)
-		(pin "6"
-			(uuid "3ee6f44b-45e8-41ea-b0d1-9409d76e9b78")
-		)
-		(instances
-			(project "astra-nucleo-hat"
-				(path "/a6d66407-49bd-4b68-89a4-1575c3290dd0"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 143.51 212.09 0)
 		(unit 1)
@@ -13972,7 +13800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 292.1 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -16894,7 +16722,7 @@
 				)
 			)
 		)
-		(property "Value" "JST_07"
+		(property "Value" "DSP_CONN"
 			(at 143.51 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17920,109 +17748,6 @@
 			(project "astra-nucleo-hat"
 				(path "/a6d66407-49bd-4b68-89a4-1575c3290dd0"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x9_Male")
-		(at 231.14 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4aef543-8d2f-46cc-ade7-a3ec3f8c7129")
-		(property "Reference" "J10"
-			(at 233.68 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED2_CONN"
-			(at 233.68 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
-			(at 229.87 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -9"
-			(at 231.14 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "2b3da8d6-fd23-41db-8506-9bbae525ccef")
-		)
-		(pin "4"
-			(uuid "df74f877-10b8-4f23-9807-4e90f5d2a2bc")
-		)
-		(pin "2"
-			(uuid "9c649429-0832-4164-8d5d-cbc29fd4161f")
-		)
-		(pin "7"
-			(uuid "60a9fb43-ea5a-4a3d-aca5-cb5c7cec000a")
-		)
-		(pin "9"
-			(uuid "3dee3d84-64fe-4aa9-8e95-8d814ed73ab1")
-		)
-		(pin "1"
-			(uuid "295ce346-55ae-478e-bb72-7bcde74d6d53")
-		)
-		(pin "8"
-			(uuid "4b43b10c-9e02-406e-a0e9-ca5612cc0b13")
-		)
-		(pin "3"
-			(uuid "e86955b6-5e2e-4b77-b028-9ebfbd8bc7d3")
-		)
-		(pin "6"
-			(uuid "cded6b12-5a2b-437b-a23e-113924277dc6")
-		)
-		(instances
-			(project "astra-nucleo-hat"
-				(path "/a6d66407-49bd-4b68-89a4-1575c3290dd0"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -19921,6 +19646,109 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Connectors:JST_09")
+		(at 231.14 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce05c7f8-9d95-4785-bf29-f4103fb72af6")
+		(property "Reference" "J10"
+			(at 233.68 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED2_CONN"
+			(at 233.68 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_EH_B9B-EH-A_1x09_P2.50mm_Vertical"
+			(at 231.14 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "JST Connector  9 pins"
+			(at 231.14 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "1461452a-9e67-4f9c-ac15-734bc75e7f92")
+		)
+		(pin "7"
+			(uuid "4e1a5273-f367-4c3f-afb3-d1a7f3083041")
+		)
+		(pin "4"
+			(uuid "3e9e11ab-e96b-402b-abee-5bf5335f9593")
+		)
+		(pin "6"
+			(uuid "2c8b1b27-25af-45e1-99f7-e6702b0d0f40")
+		)
+		(pin "2"
+			(uuid "ddfd57e4-654a-45fd-8d32-7896fa5f9751")
+		)
+		(pin "1"
+			(uuid "5983496a-81c2-4de3-954f-67d6e2979d3d")
+		)
+		(pin "9"
+			(uuid "6c420e64-d3fa-446f-a2a4-116c6ccb1366")
+		)
+		(pin "8"
+			(uuid "73b51623-b959-4775-a6d6-52b8645a57e9")
+		)
+		(pin "3"
+			(uuid "75f2cff0-660b-486c-9ce9-ebf117098f75")
+		)
+		(instances
+			(project "astra-nucleo-hat"
+				(path "/a6d66407-49bd-4b68-89a4-1575c3290dd0"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 35.56 64.77 270)
 		(unit 1)
@@ -20421,6 +20249,109 @@
 			(project "astra-nucleo-hat"
 				(path "/a6d66407-49bd-4b68-89a4-1575c3290dd0"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Connectors:JST_09")
+		(at 205.74 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2bbd4e1-427b-4893-ba36-b3f17297e648")
+		(property "Reference" "J9"
+			(at 208.28 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED1_CONN"
+			(at 208.28 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_EH_B9B-EH-A_1x09_P2.50mm_Vertical"
+			(at 205.74 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "JST Connector  9 pins"
+			(at 205.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "c2ade294-039f-42a3-bc4b-8a050bc567f7")
+		)
+		(pin "7"
+			(uuid "89febd7e-b812-4f71-9fe1-9c491bbffc6b")
+		)
+		(pin "4"
+			(uuid "87722f99-3698-4334-848f-356d4d9dcf42")
+		)
+		(pin "6"
+			(uuid "0a187f8e-8741-4f6e-a9c1-31a19d152fff")
+		)
+		(pin "2"
+			(uuid "cc8792fb-19b4-4538-b324-861631b1555c")
+		)
+		(pin "1"
+			(uuid "26f61178-5b2d-4c0b-a511-c1ec09cfd951")
+		)
+		(pin "9"
+			(uuid "4a53877f-6827-4337-9856-0db0ae122c66")
+		)
+		(pin "8"
+			(uuid "5afac760-d3f8-4c14-9bae-e592d17728e9")
+		)
+		(pin "3"
+			(uuid "d5ae70ce-194a-4791-92df-c34d3843419a")
+		)
+		(instances
+			(project "astra-nucleo-hat"
+				(path "/a6d66407-49bd-4b68-89a4-1575c3290dd0"
+					(reference "J9")
 					(unit 1)
 				)
 			)
