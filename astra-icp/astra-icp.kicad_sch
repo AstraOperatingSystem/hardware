@@ -8751,7 +8751,7 @@
 				)
 			)
 		)
-		(property "Value" "60.4"
+		(property "Value" "130"
 			(at 39.37 160.782 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11403,7 +11403,7 @@
 				)
 			)
 		)
-		(property "Value" "130"
+		(property "Value" "220"
 			(at 39.37 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11644,7 +11644,7 @@
 				)
 			)
 		)
-		(property "Value" "60.4"
+		(property "Value" "130"
 			(at 39.37 135.382 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13032,7 +13032,7 @@
 				)
 			)
 		)
-		(property "Value" "60.4"
+		(property "Value" "130"
 			(at 39.37 148.082 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15199,7 +15199,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "130"
 			(at 39.37 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
