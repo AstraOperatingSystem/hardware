@@ -12682,7 +12682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_MYOUNG_BS-07-A1BJ001_CR2032"
+		(property "Footprint" "Battery:BatteryHolder_Renata_SMTU2032-LF_1x2032"
 			(at 143.51 210.566 90)
 			(hide yes)
 			(show_name no)
