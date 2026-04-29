@@ -19679,7 +19679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B9B-EH-A_1x09_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B9B-PH-K_1x09_P2.00mm_Vertical"
 			(at 231.14 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -20288,7 +20288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B9B-EH-A_1x09_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B9B-PH-K_1x09_P2.00mm_Vertical"
 			(at 205.74 158.75 0)
 			(hide yes)
 			(show_name no)
